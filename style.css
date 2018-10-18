@@ -1,0 +1,56 @@
+body {
+	text-align: center;
+	font-family: Tahoma, Verdana, Segoe sans-serif;
+	font-size: 42px;
+	font-weight: 350;
+	color: #686868;
+	
+	
+	background-color: #E4EFF3;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size : 700px; 
+}
+	
+.imageIcon {
+	width: 32px;
+
+}	
+
+table, th, td {
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+	
+th, td {
+	padding: 5px;
+}
+			
+.centreHolder {
+	text-align: center;
+}
+
+body {margin:0;}
+
+.navbar {
+	overflow: hidden;
+	background-color: #555555;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+ .navbar a {
+    float: left;
+    display: Inline-block;
+    color: #FFFFFF;
+	text-align: justify;
+    padding: 17px 17px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.navbar a:hover {
+      background: #ddd;
+      color: black;
+}
