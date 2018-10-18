@@ -4,7 +4,7 @@ include("db.php");
 
 $id=$_GET["id"];
 
-echo "I am editing ID $id!<hr>";
+//echo "I am editing ID $id!<hr>";
 
 $sql="select * from supplier where supplierID=$id";
 
